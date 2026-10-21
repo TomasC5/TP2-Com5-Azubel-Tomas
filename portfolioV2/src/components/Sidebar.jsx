@@ -12,10 +12,11 @@ function Sidebar() {
     
     return(
         <aside className="sidebar">
-            <h1>Azubel Tomas - Portfolio</h1>
-            <p>Desarrollador Web</p>
+            <h1>Azubel Tomas</h1><hr /> 
+            <h2>Portfolio</h2>
+            <h4>Web Developer</h4>
             
-            <nav>
+            <nav className="botones">
                 {links.map((link) => (
                     <NavLink
                     key = {link.to} to = {link.to} end={link.to === "/"}
@@ -25,6 +26,8 @@ function Sidebar() {
                 ))}
                 
             </nav>
+
+            <p></p>
         </aside>
     )
 }

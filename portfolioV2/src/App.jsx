@@ -8,7 +8,7 @@ import Layout from "./components/Layout"
 
 function App() {
     return(
-            <Routes>
+                <Routes>
                     <Route element = {<Layout />}>
                     <Route path="/" element={<Home />}/>
                     <Route path="/About" element={<About />}/>
@@ -16,7 +16,8 @@ function App() {
                     <Route path="/Projects" element={<Projects />}/>
                     <Route path="/Contact" element={<Contact />}/>
                     </Route>
-            </Routes>
+                </Routes>
+            
     )
 }
 
