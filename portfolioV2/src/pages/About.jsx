@@ -1,9 +1,9 @@
-import ProjectCard from "../components/ProjectCard";
+import PersonalCard from "../components/PersonalCard";
 
 function About() {
     return(
         <div>
-            <ProjectCard />
+            <PersonalCard />
         </div>
     )
 }

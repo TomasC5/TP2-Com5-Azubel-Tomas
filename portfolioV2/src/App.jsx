@@ -8,18 +8,15 @@ import Layout from "./components/Layout"
 
 function App() {
     return(
-        <div>
-            
-
             <Routes>
-                <Route Element = {<Layout />} />
-                <Route path="/" Element={<Home />}/>
-                <Route path="/About" Element={<About />}/>
-                <Route path="/Skills" Element={<Skills />}/>
-                <Route path="/Projects" Element={<Projects />}/>
-                <Route path="/Contact" Element={<Contact />}/>
+                    <Route element = {<Layout />}>
+                    <Route path="/" element={<Home />}/>
+                    <Route path="/About" element={<About />}/>
+                    <Route path="/Skills" element={<Skills />}/>
+                    <Route path="/Projects" element={<Projects />}/>
+                    <Route path="/Contact" element={<Contact />}/>
+                    </Route>
             </Routes>
-        </div>
     )
 }
 
