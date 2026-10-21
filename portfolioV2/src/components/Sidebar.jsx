@@ -1,3 +1,4 @@
+import ThemeButton from "./ThemeButton";
 import { NavLink } from "react-router-dom";
 
 const links = [
@@ -15,6 +16,8 @@ function Sidebar() {
             <h1>Azubel Tomás</h1><hr /> 
             <h2>Portfolio</h2>
             <h4>Web Developer</h4>
+
+            <ThemeButton />
             
             <nav className="botones">
                 {links.map((link) => (
