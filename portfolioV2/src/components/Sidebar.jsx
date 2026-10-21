@@ -12,7 +12,7 @@ function Sidebar() {
     
     return(
         <aside className="sidebar">
-            <h1>Azubel Tomas</h1><hr /> 
+            <h1>Azubel Tomás</h1><hr /> 
             <h2>Portfolio</h2>
             <h4>Web Developer</h4>
             
@@ -27,7 +27,7 @@ function Sidebar() {
                 
             </nav>
 
-            <p></p>
+            <p className="sidebarFooter">&copy; {new Date().getFullYear()} Tomás Azubel</p>
         </aside>
     )
 }

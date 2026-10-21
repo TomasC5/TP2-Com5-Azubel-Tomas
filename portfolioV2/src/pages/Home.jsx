@@ -1,7 +1,9 @@
+import PersonalCard from "../components/PersonalCard";
+
 function Home() {
     return(
         <div>
-            
+            <PersonalCard />
         </div>
     )
 }

@@ -42,6 +42,7 @@ body {
     width: 30%;
     height: 100%;
     overflow-y: auto;
+    overflow-x: hidden;
     background-color: #222;
     color: white;
     text-align: center; 
@@ -87,4 +88,9 @@ body {
 .botones {
     display: grid;
     font-size: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(162, 212, 255);
 }
