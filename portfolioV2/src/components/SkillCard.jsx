@@ -9,7 +9,7 @@ function SkillCard() {
             <hr></hr>
             <Skills language="Javascript" summary="Webpage functions" isLearnt={true}/>
             <hr></hr>
-            <Skills language="React libraby" summary="Webpage interfaces" isLearnt={false}/>
+            <Skills language="React library" summary="Webpage interfaces" isLearnt={false}/>
         </div>
     )
 }
